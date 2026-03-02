@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>智伴AI - 你的专属AI智能伙伴</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        body { font-family: system-ui, -apple-system, sans-serif; }
+        .hero-bg { background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 100%); }
+    </style>
+</head>
+<body class="bg-zinc-950 text-zinc-100">
+    <!-- 导航 -->
+    <nav class="border-b border-zinc-800 bg-zinc-950/80 backdrop-blur-md fixed w-full z-50">
+        <div class="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center gap-3">
+                <span class="text-2xl">🤖</span>
+                <span class="text-2xl font-bold tracking-tighter">智伴AI</span>
+            </div>
+            <a href="#services" class="text-sm hover:text-cyan-400 transition">服务</a>
+            <a href="#price" class="text-sm hover:text-cyan-400 transition">价格</a>
+            <a href="https://weixin.qq.com" target="_blank" class="bg-cyan-500 hover:bg-cyan-600 px-5 py-2 rounded-full text-sm font-medium transition">立即咨询</a>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero-bg pt-24 pb-20 text-center">
+        <div class="max-w-3xl mx-auto px-6">
+            <div class="inline-flex items-center gap-2 bg-zinc-900 border border-zinc-700 rounded-full px-4 py-1 text-sm mb-6">
+                <span class="w-2 h-2 bg-green-400 rounded-full animate-pulse"></span>
+                已在为10+位老板提供服务
+            </div>
+            <h1 class="text-5xl md:text-6xl font-bold tracking-tighter leading-tight mb-6">
+                AI帮你搞定一切<br>
+                <span class="text-cyan-400">省时 · 省力 · 省钱</span>
+            </h1>
+            <p class="text-xl text-zinc-400 mb-10">
+                我是你的AI大脑，你是执行官<br>
+                内容、工具、数字产品，一站式搞定
+            </p>
+            <a href="#price" class="inline-block bg-white text-black px-10 py-4 rounded-2xl font-semibold text-lg hover:scale-105 transition">
+                查看价格 → 
+            </a>
+        </div>
+    </section>
+
+    <!-- 服务 -->
+    <section id="services" class="max-w-5xl mx-auto px-6 py-20">
+        <h2 class="text-3xl font-bold text-center mb-12">我们能帮你做什么</h2>
+        <div class="grid md:grid-cols-3 gap-8">
+            <!-- 服务卡片1 -->
+            <div class="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 hover:border-cyan-400 transition">
+                <div class="text-4xl mb-6">✍️</div>
+                <h3 class="text-2xl font-semibold mb-3">AI内容工厂</h3>
+                <p class="text-zinc-400">公众号、抖音脚本、小红书笔记、产品文案、SEO文章……我1分钟出初稿，你润色后直接发。</p>
+                <ul class="mt-6 space-y-2 text-sm text-zinc-400">
+                    <li>✅ 10篇/月 2999元</li>
+                    <li>✅ 单篇 299-599元</li>
+                </ul>
+            </div>
+            <!-- 服务卡片2 -->
+            <div class="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 hover:border-cyan-400 transition">
+                <div class="text-4xl mb-6">⚙️</div>
+                <h3 class="text-2xl font-semibold mb-3">AI工具定制</h3>
+                <p class="text-zinc-400">Excel自动化、Notion模板、Python脚本、专属GPTs……把重复工作交给AI。</p>
+                <ul class="mt-6 space-y-2 text-sm text-zinc-400">
+                    <li>✅ 单次 999-2999元</li>
+                    <li>✅ 月维护 499元</li>
+                </ul>
+            </div>
+            <!-- 服务卡片3 -->
+            <div class="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 hover:border-cyan-400 transition">
+                <div class="text-4xl mb-6">💰</div>
+                <h3 class="text-2xl font-semibold mb-3">数字产品商店</h3>
+                <p class="text-zinc-400">提示词合集、创业SOP、简历模板、英语卡片……买一次终身用。</p>
+                <ul class="mt-6 space-y-2 text-sm text-zinc-400">
+                    <li>✅ 29-99元/套</li>
+                    <li>✅ 每月上新3-5款</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- 价格 -->
+    <section id="price" class="bg-zinc-900 py-20">
+        <div class="max-w-5xl mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12">透明价格 · 立即开始</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-zinc-950 border border-zinc-700 rounded-3xl p-8 text-center">
+                    <h3 class="text-cyan-400 font-medium">内容创作</h3>
+                    <div class="text-5xl font-bold my-4">2999<span class="text-sm font-normal">/月</span></div>
+                    <p class="text-sm text-zinc-500">10篇高质量内容</p>
+                    <button onclick="alert('加我微信详谈～')" class="mt-8 w-full bg-cyan-500 text-black py-4 rounded-2xl font-medium">立即下单</button>
+                </div>
+                <div class="bg-zinc-950 border border-cyan-400 rounded-3xl p-8 text-center scale-105 shadow-2xl shadow-cyan-500/20">
+                    <div class="bg-cyan-400 text-black text-xs font-bold inline-block px-4 py-1 rounded-full -mt-4">最受欢迎</div>
+                    <h3 class="text-cyan-400 font-medium mt-4">工具定制</h3>
+                    <div class="text-5xl font-bold my-4">1499<span class="text-sm font-normal">/次</span></div>
+                    <p class="text-sm text-zinc-500">专属自动化方案</p>
+                    <button onclick="alert('加我微信详谈～')" class="mt-8 w-full bg-white text-black py-4 rounded-2xl font-medium">立即下单</button>
+                </div>
+                <div class="bg-zinc-950 border border-zinc-700 rounded-3xl p-8 text-center">
+                    <h3 class="text-cyan-400 font-medium">数字产品</h3>
+                    <div class="text-5xl font-bold my-4">49<span class="text-sm font-normal">/套</span></div>
+                    <p class="text-sm text-zinc-500">买一次终身使用</p>
+                    <button onclick="alert('加我微信详谈～')" class="mt-8 w-full bg-cyan-500 text-black py-4 rounded-2xl font-medium">立即购买</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 支付 & 联系 -->
+    <section class="max-w-5xl mx-auto px-6 py-20 text-center">
+        <h2 class="text-3xl font-bold mb-8">微信支付 · 安全可靠</h2>
+        <div class="max-w-xs mx-auto bg-zinc-900 border border-zinc-700 rounded-3xl p-6">
+            <p class="text-sm text-zinc-400 mb-4">扫码支付后截图发我即可</p>
+            <!-- 这里换成你自己的微信收款二维码 -->
+            <div class="bg-zinc-800 border-2 border-dashed border-zinc-600 h-64 rounded-2xl flex items-center justify-center text-zinc-500">
+                【把你的微信收款码图片放在这里】
+            </div>
+            <p class="mt-6 text-xs text-zinc-500">支付后加我微信领取服务</p>
+        </div>
+        <p class="mt-10 text-zinc-400">微信号：<span class="font-mono text-cyan-400">（你把你的微信号填这里）</span></p>
+    </section>
+
+    <footer class="border-t border-zinc-800 py-10 text-center text-xs text-zinc-500">
+        © 2026 智伴AI · aizhuban.xyz · 仅一人公司，极致效率
+    </footer>
+</body>
+</html>
