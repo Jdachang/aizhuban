@@ -21,7 +21,7 @@
             </div>
             <a href="#services" class="text-sm hover:text-cyan-400 transition">服务</a>
             <a href="#price" class="text-sm hover:text-cyan-400 transition">价格</a>
-            <a href="https://weixin.qq.com" target="_blank" class="bg-cyan-500 hover:bg-cyan-600 px-5 py-2 rounded-full text-sm font-medium transition">立即咨询</a>
+            <a href="#" onclick="copyWechat()" class="bg-cyan-500 hover:bg-cyan-600 px-5 py-2 rounded-full text-sm font-medium transition">加我微信</a>
         </div>
     </nav>
 
@@ -50,34 +50,31 @@
     <section id="services" class="max-w-5xl mx-auto px-6 py-20">
         <h2 class="text-3xl font-bold text-center mb-12">我们能帮你做什么</h2>
         <div class="grid md:grid-cols-3 gap-8">
-            <!-- 服务卡片1 -->
             <div class="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 hover:border-cyan-400 transition">
                 <div class="text-4xl mb-6">✍️</div>
                 <h3 class="text-2xl font-semibold mb-3">AI内容工厂</h3>
-                <p class="text-zinc-400">公众号、抖音脚本、小红书笔记、产品文案、SEO文章……我1分钟出初稿，你润色后直接发。</p>
+                <p class="text-zinc-400">公众号、抖音脚本、小红书笔记、产品文案……我1分钟出初稿。</p>
                 <ul class="mt-6 space-y-2 text-sm text-zinc-400">
-                    <li>✅ 10篇/月 2999元</li>
+                    <li>✅ 月包 10篇 2999元</li>
                     <li>✅ 单篇 299-599元</li>
                 </ul>
             </div>
-            <!-- 服务卡片2 -->
             <div class="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 hover:border-cyan-400 transition">
                 <div class="text-4xl mb-6">⚙️</div>
                 <h3 class="text-2xl font-semibold mb-3">AI工具定制</h3>
-                <p class="text-zinc-400">Excel自动化、Notion模板、Python脚本、专属GPTs……把重复工作交给AI。</p>
+                <p class="text-zinc-400">Excel自动化、Notion模板、Python脚本、专属GPTs。</p>
                 <ul class="mt-6 space-y-2 text-sm text-zinc-400">
                     <li>✅ 单次 999-2999元</li>
                     <li>✅ 月维护 499元</li>
                 </ul>
             </div>
-            <!-- 服务卡片3 -->
             <div class="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 hover:border-cyan-400 transition">
                 <div class="text-4xl mb-6">💰</div>
                 <h3 class="text-2xl font-semibold mb-3">数字产品商店</h3>
-                <p class="text-zinc-400">提示词合集、创业SOP、简历模板、英语卡片……买一次终身用。</p>
+                <p class="text-zinc-400">提示词合集、创业SOP、简历模板……买一次终身用。</p>
                 <ul class="mt-6 space-y-2 text-sm text-zinc-400">
                     <li>✅ 29-99元/套</li>
-                    <li>✅ 每月上新3-5款</li>
+                    <li>✅ 每月上新</li>
                 </ul>
             </div>
         </div>
@@ -91,21 +88,18 @@
                 <div class="bg-zinc-950 border border-zinc-700 rounded-3xl p-8 text-center">
                     <h3 class="text-cyan-400 font-medium">内容创作</h3>
                     <div class="text-5xl font-bold my-4">2999<span class="text-sm font-normal">/月</span></div>
-                    <p class="text-sm text-zinc-500">10篇高质量内容</p>
-                    <button onclick="alert('加我微信详谈～')" class="mt-8 w-full bg-cyan-500 text-black py-4 rounded-2xl font-medium">立即下单</button>
+                    <button onclick="copyWechat()" class="mt-8 w-full bg-cyan-500 text-black py-4 rounded-2xl font-medium">立即咨询</button>
                 </div>
                 <div class="bg-zinc-950 border border-cyan-400 rounded-3xl p-8 text-center scale-105 shadow-2xl shadow-cyan-500/20">
                     <div class="bg-cyan-400 text-black text-xs font-bold inline-block px-4 py-1 rounded-full -mt-4">最受欢迎</div>
                     <h3 class="text-cyan-400 font-medium mt-4">工具定制</h3>
                     <div class="text-5xl font-bold my-4">1499<span class="text-sm font-normal">/次</span></div>
-                    <p class="text-sm text-zinc-500">专属自动化方案</p>
-                    <button onclick="alert('加我微信详谈～')" class="mt-8 w-full bg-white text-black py-4 rounded-2xl font-medium">立即下单</button>
+                    <button onclick="copyWechat()" class="mt-8 w-full bg-white text-black py-4 rounded-2xl font-medium">立即咨询</button>
                 </div>
                 <div class="bg-zinc-950 border border-zinc-700 rounded-3xl p-8 text-center">
                     <h3 class="text-cyan-400 font-medium">数字产品</h3>
                     <div class="text-5xl font-bold my-4">49<span class="text-sm font-normal">/套</span></div>
-                    <p class="text-sm text-zinc-500">买一次终身使用</p>
-                    <button onclick="alert('加我微信详谈～')" class="mt-8 w-full bg-cyan-500 text-black py-4 rounded-2xl font-medium">立即购买</button>
+                    <button onclick="copyWechat()" class="mt-8 w-full bg-cyan-500 text-black py-4 rounded-2xl font-medium">立即购买</button>
                 </div>
             </div>
         </div>
@@ -115,18 +109,21 @@
     <section class="max-w-5xl mx-auto px-6 py-20 text-center">
         <h2 class="text-3xl font-bold mb-8">微信支付 · 安全可靠</h2>
         <div class="max-w-xs mx-auto bg-zinc-900 border border-zinc-700 rounded-3xl p-6">
-            <p class="text-sm text-zinc-400 mb-4">扫码支付后截图发我即可</p>
-            <!-- 这里换成你自己的微信收款二维码 -->
-            <div class="bg-zinc-800 border-2 border-dashed border-zinc-600 h-64 rounded-2xl flex items-center justify-center text-zinc-500">
-                【把你的微信收款码图片放在这里】
-            </div>
-            <p class="mt-6 text-xs text-zinc-500">支付后加我微信领取服务</p>
+            <img src="/wechat-qr.jpg" class="w-full h-auto rounded-2xl mx-auto" alt="微信支付二维码">
+            <p class="mt-6 text-sm text-zinc-400">扫码支付后截图发我</p>
+            <p class="mt-4 text-xs text-zinc-500">支付后加我微信：<span class="font-mono text-cyan-400 font-bold">aizhuban888</span></p>
         </div>
-        <p class="mt-10 text-zinc-400">微信号：<span class="font-mono text-cyan-400">（你把你的微信号填这里）</span></p>
     </section>
 
     <footer class="border-t border-zinc-800 py-10 text-center text-xs text-zinc-500">
-        © 2026 智伴AI · aizhuban.xyz · 仅一人公司，极致效率
+        © 2026 智伴AI · aizhuban.xyz · 一人公司 · 极致效率
     </footer>
+
+    <script>
+        function copyWechat() {
+            navigator.clipboard.writeText('aizhuban888');
+            alert('✅ 微信号 aizhuban888 已复制！直接打开微信搜索添加我～');
+        }
+    </script>
 </body>
 </html>
